@@ -213,3 +213,40 @@ footer .social-media{
     align-items: center;
 }
 
+.card-artista{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    padding: 40px;
+    font-size: 1.07em;
+    margin-top: 30px;
+}
+
+.card-artista h2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 0px;
+}
+
+.card-artista p{
+    padding-right: 30px;
+    padding-top: 20px;
+    
+}
+
+.card-artista aside{
+    margin-top: 30px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+}
+
+.trap2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.art-artistas{
+    padding: 30px 50px;
+}
