@@ -23,6 +23,9 @@ h1,h2,h3,h4,h5{
 a{
     color: black;
     text-decoration: none;
+}
+
+nav a{
     display: inline-block;
 }
 
@@ -274,6 +277,11 @@ article.cosplays{
     padding: 40px 0px;
 }
 
+.cosplays figcaption{
+    text-align: center;
+
+}
+
 article.cosplays h1{
     text-align: center;
     padding: 10px 0px 40px;
@@ -294,9 +302,13 @@ article.cosplays h1{
     align-content: center;
     justify-content: center;
     
-    row-gap: 40px;
+    row-gap: 10px;
     column-gap: 50px;
     
+}
+
+.ident2{
+    text-indent: 1em;
 }
 
 [class="caixa-azul cosplays"] div figure{
