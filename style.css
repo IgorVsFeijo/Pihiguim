@@ -374,6 +374,11 @@ article.cosplays h1{
     
 }
 
+p.margin-b{
+    margin-bottom: 30px;
+    padding-top: 0;
+}
+
 .idealizador .trabalhos p{
     padding-right: 30px;
 }
@@ -445,4 +450,16 @@ article.cosplays h1{
     float: right;
     margin: 10px 20px;
     border-radius: 15px;
+}
+
+.quem-somos article > p{
+    font-size: 1.2em;
+}
+
+.without-margin-bottom{
+    padding-bottom: 0;
+}
+
+.without-margin-top{
+    padding-top: 0;
 }
