@@ -228,36 +228,36 @@ footer .social-media{
 }
 
 .card-artista{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
+    display: block;
     padding: 40px;
     font-size: 1.07em;
     margin-top: 30px;
 }
 
 .card-artista h2{
-    grid-column-start: 1;
-    grid-column-end: 3;
     margin: 0px;
 }
 
 .card-artista p{
     padding-right: 30px;
     padding-top: 20px;
-    
+}
+
+.card-artista > img{
+    float: right;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 
 .card-artista aside{
-    margin-top: 30px;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    clear: both;
+    padding-top: 30px;
     position: relative;
 }
 
 .trap2{
     position: absolute;
-    top: 0px;
+    bottom: 0px;
     right: 0px;
 }
 
@@ -332,10 +332,7 @@ article.cosplays h1{
 }
 
 .idealizador .trabalhos{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: auto 180px auto;
-    padding: 30px;
+    
 }
 
 .idealizador .trabalhos h2{
