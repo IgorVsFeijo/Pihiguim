@@ -274,12 +274,16 @@ article.cosplays{
 
 .cosplays p{
     font-size: 1.12em;
-    padding: 40px 0px;
+    padding: 60px 0px;
 }
 
 .cosplays figcaption{
     text-align: center;
 
+}
+
+.poster-cosplay{
+    margin: 20px;
 }
 
 article.cosplays h1{
@@ -320,8 +324,7 @@ article.cosplays h1{
 }
 
 [class="caixa-azul cosplays"] img{
-    border: 2px solid var(--branco);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .float-right{
